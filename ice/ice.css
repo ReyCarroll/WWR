@@ -1,0 +1,17 @@
+.top {
+    width: 100%;
+}
+body {
+    margin: 0%;
+    background-color: #606060;
+    text-align: center;
+}
+.image{
+    width: 20%;
+    border-radius: 50%;
+    padding: 0.7%;
+    margin: 5%;
+    background: black ;
+
+
+}
