@@ -49,6 +49,10 @@ div {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+
+}
+.logo{
+    width: 80px;
 }
 #hero-msg h1 {
     text-align: center;
