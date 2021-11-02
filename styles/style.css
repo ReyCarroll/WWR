@@ -125,7 +125,7 @@ footer{
 footer .social img {
     padding: 15px;
 }
-.rivers-card, .camping-card, .rapids-card{
+.river-card, .camping-card, .rapids-card{
     margin: 200px 0;
 }
 .card-img {
@@ -155,12 +155,12 @@ nav {
 }
 .home-grid{
     display: grid;
-    grid-template-columns: repeat(10 , 1);
+    grid-template-columns: repeat(10,1fr);
 }
 .card-img, .mountain {
     width: 100%;
 }
-.rapids-card {
+.river-card {
     grid-column: 2/4;
     grid-row: 2/3;
 }
@@ -238,7 +238,7 @@ nav {
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
+    .river-card, .camping-card, .rapids-card { 
         margin: 50px auto;
         width: 60%;
     }
