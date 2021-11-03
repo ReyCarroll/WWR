@@ -5,7 +5,7 @@
     --paragraph-font: "Roboto", Helvetica, sans-serif;
     font-size: 22px;
 }
-div {
+#content {
     max-width: 1600px;
     margin: 0 auto;
   } 
@@ -179,10 +179,7 @@ nav {
     grid-column: 1/11;
     grid-row: 4/9;
 }
-.mountains{
-    grid-column: 2/7;
-    grid-row: 5/8;
-}
+
 .msg{
     grid-column: 6/10;
     grid-row: 6/7;
@@ -212,7 +209,7 @@ nav {
     box-shadow: 5px 5px 10px #6f7364;
 }
 .mountains {
-    grid-column: 2/7;
+    grid-column: 1/11;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
